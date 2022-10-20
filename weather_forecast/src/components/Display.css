@@ -1,0 +1,22 @@
+.wind::after{
+    content:'(km/hr)';
+    font-size: 20px;
+}
+.pressure::after{
+    content:' (milibar)';
+    font-size: 20px;
+}
+.precipitation::after{
+    content:' (mm)';
+    font-size: 20px;
+}
+.humidity::after{
+    content:' (%)';
+    font-size: 20px;
+}
+.weather-info h3,.weather-info h2{
+    text-align:center;
+}
+p{
+    font-size: 20px;
+}
